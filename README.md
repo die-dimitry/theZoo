@@ -2,7 +2,7 @@
 theZoo is a project created to make the possibility of malware analysis open and available to the public. Since we have found out that almost all versions of malware are very hard to come by in a way which will allow analysis, we have decided to gather all of them for you in an accessible and safe way.
 theZoo was born by Yuval and later it was carried by lot of developers to help him maintain. 
 
-This updated repository is maintained by Qirit0 so bugs can be reported accordingly with the DAILYHIJACKS subs
+This updated repository is maintained by **Qirit0** so bugs can be reported accordingly with the DAILYHIJACKS subs
 
 **theZoo is open and welcoming visitors!**
 
