@@ -34,7 +34,7 @@ Start by running the console:
 
 ## License
 theZoo - the most awesome free malware database on the air
-Copyright (C) 2015, Yuval Nativ, Lahad Ludar, 5fingers
+Copyright (C) 2020
 DEV: Qirit0
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -57,7 +57,7 @@ You can also find more information in `LICENSE.md`.
 theZoo's objective is to offer a fast and easy way of retrieving malware samples and source code in an organized fashion in hopes of promoting malware research.
 
 ### Root Files
-Since version 0.42 theZoo has been undergoing dramatic changes. It now runs in both CLI and ARGVS modes. You can call the program with the same command line arguments as before.
+theZoo has been undergoing dramatic change it now runs in both CLI and ARGVS modes. You can call the program with the same command line arguments as before.
 The current default state of theZoo runtime is the CLI. The following files and directories are responsible for the application's behaviour.
 
 `/conf` - The conf folder holds files relevant to the particular running of the program but are not part of the application. You can find the EULA file in the conf and more.
