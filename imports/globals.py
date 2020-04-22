@@ -1,20 +1,4 @@
 #!/usr/bin/env python
-
-    # Malware DB - the most awesome free malware database on the air
-    # Copyright (C) 2014, Yuval Nativ, Lahad Ludar, 5Fingers
-
-    # This program is free software: you can redistribute it and/or modify
-    # it under the terms of the GNU General Public License as published by
-    # the Free Software Foundation, either version 3 of the License, or
-    #(at your option) any later version.
-
-    # This program is distributed in the hope that it will be useful,
-    # but WITHOUT ANY WARRANTY; without even the implied warranty of
-    # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    # GNU General Public License for more details.
-
-    # You should have received a copy of the GNU General Public License
-    # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import sys
 import os
 import random
@@ -26,10 +10,9 @@ class init:
         version = "0.6.0 Moat"
         appname = "theZoo"
         codename = "Moat"
-        authors = "Yuval Nativ, Lahad Ludar, 5fingers"
-        maintainers = [ "Shahak Shalev", "Yuval Nativ" ]
-        github_add = "https://www.github.com/ytisf/theZoo"
-        licensev = "GPL v3.0"
+        authors = "Yuval"
+        maintainers = [ "Qirit0" ]
+        github_add = "https://www.github.com/DAILYHIJACKS/theZoo"
         fulllicense = appname + " Copyright (C) 2016 " + authors + "\n"
         fulllicense += "This program comes with ABSOLUTELY NO WARRANTY; for details type '" + \
             sys.argv[0] + " -w'.\n"
@@ -42,7 +25,7 @@ class init:
         conf_folder = 'conf'
         eula_file = conf_folder + '/eula_run.conf'
         maldb_ver_file = conf_folder + '/db.ver'
-        giturl = 'https://github.com/ytisf/theZoo/blob/master'
+        giturl = 'https://github.com/DAILYHIJACKS/theZoo/blob/master'
 
 
 ##########################################################
@@ -66,9 +49,9 @@ class Completer:
 class vars:
     version = "0.6.0 'Moat'"
     appname = "Malware DB"
-    authors = "Yuval Nativ, Lahad Ludar, 5fingers"
-    maintainers = [ "Shahak Shalev", "Yuval Nativ" ]
-    github_add = "https://www.github.com/ytisf/theZoo"
+    authors = "Yuval Nativ"
+    maintainers = [ "Qirit0" ]
+    github_add = "https://www.github.com/DAILYHIJACKS/theZoo"
     licensev = "GPL v3.0"
 
     ############ DEBUGGING ###############
@@ -100,8 +83,8 @@ class vars:
     eula_file = conf_folder + '/eula_run.conf'
     maldb_ver_file = conf_folder + '/db.ver'
     db_path = conf_folder + "/maldb.db"
-    giturl_dl = 'https://github.com/ytisf/theZoo/raw/master/'
-    giturl = 'https://github.com/ytisf/theZoo'
+    giturl_dl = 'https://github.com/DAILYHIJACKS/theZoo/raw/master/'
+    giturl = 'https://github.com/DAILYHIJACKS/theZoo'
 
     with open(maldb_ver_file, 'r') as f:
         db_ver = f.read()
@@ -140,16 +123,16 @@ class vars:
         maldb_banner += "   `-._    /    |    \     __.--'     |\n"
         maldb_banner += "     | `-./     |     \_.-'           |\n"
         maldb_banner += "     |          |                     |\n"
-        maldb_banner += "     |          |      Free Malwares  |\n"
-        maldb_banner += "     |          |          & Hugs     |\n"
-        maldb_banner += "_____|          |                     |______\n"
+        maldb_banner += "     |          |      Free DAILY     |\n"
+        maldb_banner += "     |          |          HIJACKS    |\n"
+        maldb_banner += "_____|          |      by Qirit0      |______\n"
         maldb_banner += "     `-.        |  /\              _.-'\n"
         maldb_banner += "        `-.     |  || UP    __..--'\n"
         maldb_banner += "           `-.  |      __.-'\n"
         maldb_banner += "              `-|__.--'\n"
 
     elif screen is 3:
-        maldb_banner = "           __  ___      __                               ____  ____\n"
+        maldb_banner = "           __  ___      __       DailyHijacks             ____  ____\n"
         maldb_banner += "          /  |/  /___ _/ /      ______ _________        / __ \/ __ )\n"
         maldb_banner += "         / /|_/ / __ `/ / | /| / / __ `/ ___/ _ \______/ / / / __ |\n"
         maldb_banner += "        / /  / / /_/ / /| |/ |/ / /_/ / /  /  __/_____/ /_/ / /_/ /\n"
@@ -172,27 +155,27 @@ class vars:
         maldb_banner += "  \:|###||:X#| /\n"
         maldb_banner += "   |==========|\n"
         maldb_banner += "    |###XXX;;|\n"
-        maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##Xn:: :|\n"
-        maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##Xn:: :|\n"
-        maldb_banner += "    |##XX:: n|\n"
-        maldb_banner += "    |##XX:: U|\n"
-        maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##XX:: :|\n"
+        maldb_banner += "    |##XX:: D|\n"
+        maldb_banner += "    |##XX:: A|\n"
+        maldb_banner += "    |##XX:: I|\n"
+        maldb_banner += "    |##XX:: L|\n"
+        maldb_banner += "    |##Xn:: Y|\n"
+        maldb_banner += "    |##XX:: ||\n"
+        maldb_banner += "    |##XX:: H|\n"
+        maldb_banner += "    |##XX:: I|\n"
+        maldb_banner += "    |##Xn:: J|\n"
+        maldb_banner += "    |##XX:: A|\n"
+        maldb_banner += "    |##XX:: C|\n"
+        maldb_banner += "    |##XX:: K|\n"
+        maldb_banner += "    |##XX:: S|\n"
         maldb_banner += "    |##XX:: :|\n"
         maldb_banner += "    |##Xn:: :|\n"
         maldb_banner += "    |##XU:: :|\n"
         maldb_banner += "    |##XX:: :|\n"
         maldb_banner += "    |##XX:: :|\n"
         maldb_banner += "    |##XX:: :|\n"
-        maldb_banner += "    |##XX:: n|\n"
-        maldb_banner += "    |##XX:: U|\n"
+        maldb_banner += "    |##XX:: :|\n"
+        maldb_banner += "    |##XX:: :|\n"
         maldb_banner += "    |##XX:: :|\n"
         maldb_banner += "    |##XX:: :|\n"
         maldb_banner += "    |##XX:: :|\n"
@@ -201,12 +184,12 @@ class vars:
         maldb_banner += "    |##Xn:: :|\ttheZoo " + version + "\n"
         maldb_banner += "    |##XU:: :|\t  " + giturl + "\n"
         maldb_banner += "    |##XX:: :|\tauthors: " + authors + "\n"
-        maldb_banner += "    |##XX:: :|\tmaintained by: " + ', '.join(maintainers) + "\n"
-        maldb_banner += "    |##XX:: :|\tgithub: " + giturl + "\n"
-        maldb_banner += "    |##,_,: :|\n"
-        maldb_banner += "    |./ T \.:|\n"
-        maldb_banner += "    || o|o |:|\n"
-        maldb_banner += "    ||  |  |:|\n"
+        maldb_banner += "    |##XX:: Q|\tmaintained by: " + ', '.join(maintainers) + "\n"
+        maldb_banner += "    |##XX:: i|\tgithub: " + giturl + "\n"
+        maldb_banner += "    |##,_,: r|\n"
+        maldb_banner += "    |./ T \.i|\n"
+        maldb_banner += "    || o|o |t|\n"
+        maldb_banner += "    ||  |  |0|\n"
         maldb_banner += "  .============.\n"
         maldb_banner += " .==============.\n"
         maldb_banner += ".================.\n\n"
@@ -235,7 +218,7 @@ class vars:
         maldb_banner += "| |            T H E  Z O O           | |\n"
         maldb_banner += "| |   I S   G O O D   F O R   Y O U   | |\n"
         maldb_banner += "| | _             %s                _ | |\n" % version
-        maldb_banner += "| |(+)                             (+)| |\n"
+        maldb_banner += "| |(+)       Daily Hijacks         (+)| |\n"
         maldb_banner += "| | ~                               ~ | |\n"
         maldb_banner += "|/ ----------------------------------- \|\n"
         maldb_banner += "---------------------------------------\n"
